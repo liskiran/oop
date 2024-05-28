@@ -6,7 +6,7 @@
 template <typename Type> class Container {
 private:
   struct Node {
-    Type _value = 0;
+    Type _value;
     Node *_prev = nullptr;
     Node *_next = nullptr;
 
