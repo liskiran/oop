@@ -1,0 +1,1 @@
+cd build && cmake .. && make cpp_oop_course && ./cpp_oop_course
